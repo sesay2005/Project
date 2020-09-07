@@ -1,2 +1,15 @@
-1- git is a version control system tool
-2-github is a public respetory where developer can shair and store there code.
+#!/bin/bash
+#Author:ABS
+#Date:Sep-07-2020
+#Discription:Create user and group
+
+echo "\n*****Creat user and group*****\n"
+
+sleep 3
+
+groupadd admin
+useradd u2082020
+groupadd family
+useradd abie -g family
+yum install wget finger httpd -y
+~
